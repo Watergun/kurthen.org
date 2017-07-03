@@ -2,7 +2,7 @@
 + KURTHEN.ORG REQUIREMENTS:+
 +++++++++++++++++++++++++++++++
 
-Introduction: 
+Introduction:
 This text file provides the full list of requirements that are needed for the construction of the KURTHEN.ORG webpage.
 At first, the general purpose if the webpage is described. Then, regarding different aspects of the site, MUSTs and SHOULDs and CANs are listed.
 
@@ -27,11 +27,13 @@ At first, the general purpose if the webpage is described. Then, regarding diffe
 %~ D.E.S.I.G.N ~%:
 ~~~~~~~~~~~~~~
 - MUST be simple in terms of aount of buttons, text, colors, interface
-- MUST have an extreme high usability: 
+- MUST have an extreme high usability:
 	~ 1 click to every part of the webpage from the start on
 	~ The start page has to provide < 5 links to subsections of the webpage
 - MUST have a small color palette (< 5 different colors)
 - MUST have a clean look => minimalistic design
+- MUST not have > 3 different fonts
+ 	-> 1 of them CAN be an own footer font
 - SHOULD have Sans-serif fonts
 - SHOULD be working even without Java Script
 
@@ -41,4 +43,4 @@ At first, the general purpose if the webpage is described. Then, regarding diffe
 - MUST be as few as possible: max. 10 sentences per page
 - MUST be friendly and welcoming
 - SHOULD not be more than summed up 10 DIN A4 pages
-- CAN be centered in the page 
+- CAN be centered in the page
