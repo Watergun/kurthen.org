@@ -5,23 +5,83 @@
         <title>Kurthen ORG</title>
 
         <link href="../css/style.css" rel="stylesheet" type="text/css"/>
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600|Oswald:600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oranienbaum|Playfair+Display+SC:400,900|Playfair+Display:400,900|Montserrat:400" rel="stylesheet">
 
     </head>
     <body>
-        <header>
+        <header class="portfolio-header">
+            <p>
+            <span id="top-banner">
+                <a href="../index.html">K U R T H E N</a>
+            </span>
+            </p>
+            <br />
+            <h1>~ Portfolio ~</h1>
         </header>
 
-        <section>
-            <div>
-                <p>
-                    Portfolio:
-                    YEAH MAN!!
-                </p>
+        <section class="page-content" id= "portfolio-page">
+            <p>
+                Here is a small list of my projects I programmed:
+            </p>
+            <div class="div-root">
+                <div class="div-fragment">
+                    <h3>K-OS (Kurthen Operating System)</h3>
+
+                    <p>
+                        That project took most of my time because it was very complex.
+                        The biggest help for this project was
+                        <a href="http://wiki.osdev.org">osdev.org</a>.
+                        <br />
+                        Compared to a real OS, it's pretty useless, but it supports a few commands
+                        and can even print out parts of the RAM.
+
+
+
+                    </p>
+                    <ul class="portfolio-stats-list">
+                        <li>Programming languages: C, Assembler</li>
+                        <li>Platform: x86 CPU / Must be installed on the bootsector of a storage drive.</li>
+                        <li>Source code: <a href="https://github.com/Watergun/K-OS">GitHub</a></li>
+                    </ul>
+                </div>
+
+                <div class="div-fragment">
+                    <h3>MyBand Android App</h3>
+                    <p>
+                        I aimed to write an app that manages muscicians and bands as groups.
+                        It's not intended to be a messenger or group-finding platform.
+                        Rather a little helping app to aid in event/gig management.
+                        <br />
+                    </p>
+
+                    <ul class="portfolio-stats-list">
+                        <li>Programming languages: Java (with Android SDK), PHP (for server scripts)</li>
+                        <li>Platform: Google Android 4.0.0+</li>
+                        <li>Source code: <i>not availabe yet</i></li>
+                    </ul>
+                </div>
+
+                <div class="div-fragment">
+                    <h3>PowerDefense Java Game</h3>
+                    <p>
+                        PowerDefense has 'just' been a school project, where the task was to develop a full
+                        project in a semi-professional way (including a sepcification and other material).
+                    </p>
+
+                    <ul class="portfolio-stats-list">
+                        <li>Programming language: Java</li>
+                        <li>Platform: Independent with JRE 6</li>
+                        <li>Source code: <a href="https://github.com/Watergun/PowerDefense">GitHub</a> </li>
+                    </ul>
+                </div>
             </div>
+
         </section>
 
         <footer>
+            <p class="version-footer">
+                Version: 1.2.5 - Updated on 07.07.2017 - Written in ATOM editor
+            </p>
         </footer>
 
     </body>
