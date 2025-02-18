@@ -29,11 +29,11 @@ export default function Contact() {
           <div>
             <h2 className="text-3xl font-bold text-gray-900">Get in Touch</h2>
             <p className="mt-4 text-lg text-gray-600">
-              Let's discuss how I can help secure your software development process.
+              Let&apos;s discuss how I can help secure your software development process.
             </p>
             <div className="mt-8 space-y-4">
               <p className="text-gray-600">
-                <strong>Email:</strong> contact@kurthen.org
+                <strong>Email:</strong> leonhard@kurthen.org
               </p>
               <p className="text-gray-600">
                 <strong>LinkedIn:</strong>{' '}
@@ -52,8 +52,11 @@ export default function Contact() {
               <input
                 type="text"
                 {...register('name', { required: true })}
-                className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                className={`mt-1 block w-full rounded-md border ${
+                  errors.name ? 'border-red-500' : 'border-gray-300'
+                } px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-blue-500`}
               />
+              {errors.name && <span className="text-sm text-red-500">Name is required</span>}
             </div>
 
             <div>
