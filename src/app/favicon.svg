@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Shield Background -->
+  <path d="M32 2 L58 12 L50 50 L32 62 L14 50 L6 12 Z" fill="#1e3a8a"/>
+  <!-- Left Code Bracket -->
+  <path d="M23 22 L18 32 L23 42" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right Code Bracket -->
+  <path d="M41 22 L46 32 L41 42" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
