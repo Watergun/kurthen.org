@@ -2,9 +2,7 @@
 import { motion } from 'framer-motion'
 import { 
   ShieldCheckIcon, 
-  MagnifyingGlassIcon, 
   CodeBracketIcon,
-  CloudIcon,
 } from '@heroicons/react/24/outline'
 
 const services = [
