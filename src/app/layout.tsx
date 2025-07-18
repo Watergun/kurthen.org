@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Leonhard Kurthen - Software Security Consultant',
-  description: 'Software Security consulting for modern software development',
+  title: 'Leonhard Kurthen - Software Development Security Expert',
+  description: 'Security for modern software development',
   icons: {
     icon: '/favicon.svg',
     // Optional additional formats

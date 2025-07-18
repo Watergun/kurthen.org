@@ -9,24 +9,14 @@ import {
 
 const services = [
   {
-    title: 'Security Audits',
-    description: 'Comprehensive analysis of your software architecture and infrastructure to identify potential security risks.',
+    title: 'Software Architecture Security Audits',
+    description: 'Comprehensive analysis of your software architecture and build infrastructure to identify potential security risks when shipping your software products.',
     icon: ShieldCheckIcon,
   },
   {
-    title: 'Penetration Testing',
-    description: 'Thorough testing of your applications to uncover vulnerabilities before they can be exploited.',
-    icon: MagnifyingGlassIcon,
-  },
-  {
-    title: 'Secure Code Reviews',
+    title: 'Source Code Reviews',
     description: 'Detailed analysis of your source code to identify security flaws and implement best practices.',
     icon: CodeBracketIcon,
-  },
-  {
-    title: 'Cloud Application Security',
-    description: 'Ensuring your cloud infrastructure meets the highest security standards and compliance requirements.',
-    icon: CloudIcon,
   },
 ]
 
